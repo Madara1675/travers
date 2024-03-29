@@ -1,4 +1,4 @@
-neme: 'Deploy App to 53'
+name: 'Deploy App to 53'
 # on: [push] #Toutes les branches
 on: 
   push:
