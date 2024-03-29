@@ -1,16 +1,19 @@
-name: Deploy App to 53
+name: 'Deploy App to 53'
 # on: [push] #Toutes les branches
 on: 
   push:
     branches:
       - pers_2 # uniquement la branche main
+
+      
 jobs: 
   deploy: # nom du jobs
     runs-on: ubuntu-latest # instance temporaire
     steps: 
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: List directory
+
+  
     
        
      
