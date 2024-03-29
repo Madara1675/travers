@@ -1,16 +1,16 @@
 neme: 'Deploy App to 53'
 # on: [push] #Toutes les branches
-on : 
+on: 
   push:
     branches:
-        - main # uniquement la branche main
+      - main # uniquement la branche main
 jobs: 
-    deployement: # nom du jobs
-runs-on: ubuntu-latest # instance temporaire
-steps: 
+  deployement: # nom du jobs
+    runs-on: ubuntu-latest # instance temporaire
+    steps: 
     - name: checkout code
       uses: actions/checkout@v4
-  # with: 
-  #    node-version: '14'
-  #    run: npm install -g bats
-  #    run: bats -v
+      # with: 
+      #    node-version: '14'
+      #    run: npm install -g bats
+      #    run: bats -v
