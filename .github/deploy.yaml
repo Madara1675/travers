@@ -3,14 +3,11 @@ name: 'Deploy App to 53'
 on: 
   push:
     branches:
-      - pers_2 # uniquement la branche main
+      - main # uniquement la branche main
 jobs: 
   deployement: # nom du jobs
     runs-on: ubuntu-latest # instance temporaire
     steps: 
-    - name: checkout code
+    - name: Checkout code
       uses: actions/checkout@v4
-      # with: 
-      #    node-version: '14'
-      #    run: npm install -g bats
-      #    run: bats -v
+     
