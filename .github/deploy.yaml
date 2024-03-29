@@ -1,6 +1,6 @@
 neme: 'Deploy App to 53'
 # on: [push] #Toutes les branches
-on:
+on : 
   push:
     branches:
         - main # uniquement la branche main
