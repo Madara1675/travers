@@ -3,7 +3,7 @@ name: 'Deploy App to 53'
 on: 
   push:
     branches:
-      - main # uniquement la branche main
+      - pers_2 # uniquement la branche main
 jobs: 
   deployement: # nom du jobs
     runs-on: ubuntu-latest # instance temporaire
