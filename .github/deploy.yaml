@@ -8,9 +8,9 @@ jobs:
   deploy: # nom du jobs
     runs-on: ubuntu-latest # instance temporaire
     steps: 
-    - name: checkout code
+    - name: Checkout code
       uses: actions/checkout@v4
-      # with: 
-      #    node-version: '14'
-      #    run: npm install -g bats
-      #    run: bats -v
+    - name: List directory
+    
+       
+     
